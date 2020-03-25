@@ -1,0 +1,56 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 100vh;
+    width: 25vh;
+    border: 3px dotted greenyellow;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#s1{animation: colors 1s infinite .1s running;
+
+}
+#s2{animation: colors .3s infinite .2s running;
+
+}
+#s3{animation: colors .4s infinite .3s running;
+
+}
+#s4{animation: colors 2s infinite .4s running;
+
+
+}
+#s5{animation: colors .5s infinite .4s running;
+
+
+}
+
+
+@keyframes colors{
+    0% {
+        background-color: black;
+    }
+
+    25%{
+        background-color: grey;
+    }
+
+    50%{
+        background-color: hotpink;
+    }
+
+    75%{
+        background-color: gray;
+    }
+
+    100%{
+        background-color: black;
+    }
+
+}
