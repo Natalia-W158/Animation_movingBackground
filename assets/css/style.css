@@ -37,7 +37,7 @@ html,body{
 
 }
 #s5{
-    animation: colors .5s infinite .4s running;
+    animation: colors .12s infinite .4s running;
 
 
 }
@@ -46,6 +46,7 @@ html,body{
 @keyframes colors{
     0% {
         background-color: black;
+        color: azure;
     }
 
     25%{
@@ -58,6 +59,7 @@ html,body{
 
     75%{
         background-color: gray;
+
     }
 
     100%{
